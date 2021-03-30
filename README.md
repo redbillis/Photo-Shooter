@@ -1,4 +1,4 @@
-#Building a Fake Product Page for a Photographer.
+# Building a Fake Product Page for a Photographer.
 
 Testing skills in HTML and CSS for https://www.freecodecamp.org.
 
