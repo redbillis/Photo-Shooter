@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header"> 
+        <div class="logo">
+          <img 
+            id="header-img"
+            src="https://daniellejacqueline.com/wp-content-uploads/2016/01/camera-logo-icon.png"
+            alt="professional photographer"
+          />
+        </div>
+               
+        <nav id="nav-bar">
+          <h1>Photo-Shooter</h1>
+          <ul>
+            <li><a class="nav-link" href="#collection">Collection</a></li>
+            <li><a class="nav-link" href="#footage">Footage</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <section id="visitor">
+        <h2>Photos?Videos?We shoot it!</h2>
+        <form id="form" action=" https://www.freecodecamp.com/email-submit">
+          <input 
+            id="email" 
+            name="email"
+            type="email"
+            placeholder="Entrer your email address"
+            required
+          />
+          <input id="submit" type="submit" value="Get Started" class="btn" />
+        </form>
+      </section>
+      
+      <div class="container">
+        <section id="collection">
+          <h2>Collection</h2>
+          <img 
+            id="first-image"
+            src="https://mymodernmet.com/wp/wp-content/uploads/2017/12/top-flickr-photos-2017-thumbnail.jpg"
+            alt="child at a train station"
+          />
+          <img 
+            id="second-image"
+            src="https://i.ytimg.com/vi/yidp3CdAQuI/maxresdefault.jpg"
+            alt="beach landscape"
+          />
+          <img 
+            id="third-image"
+            src="https://philchester.com/wp-content/uploads/2017/06/Yosemite-Engagement-Photos-5.jpg"
+            alt="couple bellow mountain"
+          />
+        </section>
+      </div>
+        
+      <section id="footage">
+        <h2>Footage</h2>
+            <iframe id="video" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" title="Video"></iframe>
+      </section>
+      
+      <section id="pricing"></section>
+        <h2>Pricing</h2>
+        <div class="product" id="photos">
+          <div class="level">Photos</div>
+              <h3>$60</h3>
+          </div>
+        </div>
+        <div class="product" id="video">
+          <div class="level">Video</div>
+              <h3>$100</h3>
+          </div>
+        </div>
+        <div class="product" id="visit">
+          <div class="level">Visit</div>
+              <h3>$10/h</h3>
+          </div>
+        </div>
+      </section>
+      
+      <footer>
+        <p>
+          **This is just a fake page. All the projects and contact details given
+          are not real.
+        </p>
+        <p>
+          &copy; Created for
+          <a href="https://www.freecodecamp.com/" target="_blank"
+            >freeCodeCamp <i class="fab fa-free-code-camp"></i
+          ></a>
+        </p>
+      </footer>
+</body>
+</html>
